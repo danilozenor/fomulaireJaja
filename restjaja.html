@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body bgcolor="green">
+    <center>
+        <form action="" method="post">
+
+            <table  cellpadding="10" celspacin="30" align="neight" id="table" bgcolor="white">
+                <thead>
+                    <tr align="center">
+                        <td  colspan="2"> JAJAFOOD </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="nom">NOM</label></td> 
+                        <td><input type="text" name="nom" id="nom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="prenom">PRENOM</label></td>
+                        <td><input type="text" name="prenom" id="prenom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="number">TEL</label></td>
+                        <td><input type="nunber" name="number" id="number"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">EMAIL</label></td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">MOT DE PASSE</label></td>
+                        <td><input type="password" name="password" id="password"></td>
+                    </tr>
+                    <tr >
+                        <td><label for="pays">PAYS</label></td>
+                        <td>
+                            <select name="pays" id="pays">
+                                <option value="france">france</option>
+                                <option value="cameroun">cameroun</option>
+                                <option value="canada">canada</option>
+                                <option value="tchad">tchad</option>
+                                <option value="italie">italie</option>
+                                <option value="togo">togo</option>
+                                <option value="allemand">allemand</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td colspan="2" align="center"> <textarea name="information " id="information" cols="10" rows="5"></textarea></td>
+                    </tr>
+                    <tr >
+                        <td align="center" colspan="2"><input type="submit" name="envoyer" id="envoyer"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
